@@ -6,8 +6,8 @@ namespace AtomaksClone.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        private readonly string adminUsername = "admin";
-        private readonly string adminPassword = "123456"; // production için env'de tut
+        private readonly string adminUsername = "Abdulsamet";
+        private readonly string adminPassword = "Atomaks2025."; // production için env'de tut
 
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)

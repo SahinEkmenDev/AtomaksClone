@@ -14,7 +14,7 @@
         public string Text { get; set; } = string.Empty;
         public int QuestionId { get; set; }
         public List<ProductImpactDto> ProductImpacts { get; set; } = new List<ProductImpactDto>();
-        public string IconUrl { get; set; } = string.Empty;
+       
 
     }
 
